@@ -8,7 +8,7 @@ Especialidad: IoT.
 # Sensor remoto IoT.
 
 El proyecto consiste en la implementación de un dispositivo IoT capaz de monitorear y transmitir por wifi variables climáticas(temperatura y humedad) así como también la posición geográfica donde se encuentra el mismo, dispone a su vez de una salida de alarma (buzzer) que podrá ser accionada en caso de que alguna de las variables climáticas supere un determinado valor.
-![IoT banner](/gps.jpg)
+![IoT banner](info/gps.jpg)
 
 
 # Descripción del hardware:
