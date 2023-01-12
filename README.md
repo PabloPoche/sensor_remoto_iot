@@ -25,13 +25,20 @@ El proyecto consiste en la implementación de un dispositivo IoT capaz de monito
 # Descripción del software:
 
 La programación del dispositivo es realizada en Micropython sobre una raspberry pi picoW la cual ni bien es energizada corre la aplicación (main.py), donde, en primera instancia se definen y configuran los diferentes elementos de hardware (módulo wifi, gps, sensores, pantalla, etc.) y luego, una vez establecida la conexión con la red, se lanza el proceso principal(cliente mqtt) donde se realizan la publicación y suscripción de los diferentes tópicos, junto a un proceso secundario(measure_thread) que realiza la medición, gestión de las alarmas y displayado de las respectivas variables de campo.
+- El codigo fuente es open source y se lo puede descargar desde:
+link github...
 ![IoT banner](/OLED.jpg)
 
 
 # Broker mqtt remoto:
 
-El dispositivo IoT trabaja en conjunto con la aplicación inove_dashboard_iot, la que ha sido modificada para adaptarla a los requerimientos del dispositivo. Una vez lanzada la misma desde un browser puede accederse a las diferentes pantallas, donde, desde la solapa mapa puede visualizarse la ubicación del dispositivo (icono azul) y al presionar con el mouse sobre el mismo puede visualizarse la temperatura y humedad medida en ese instante por el dispositivo.
-Desde la solapa sensores puede accederse al registro temporal de la temperatura y humedad y desde la solapa alarmas es posible habilitar y setear los límites de accionamiento (set point) de las alarmas de temperatura y humedad.
+El dispositivo IoT trabaja en conjunto con la aplicación web inove_dashboard_iot, la que ha sido modificada para adaptarla a los requerimientos del dispositivo. Una vez lanzada la misma desde un browser puede accederse a las diferentes pantallas, donde, desde la solapa mapa puede visualizarse la ubicación del dispositivo (icono azul) y al presionar con el mouse sobre el mismo puede visualizarse la temperatura y humedad medida en ese instante por el dispositivo.
+Desde la solapa sensores puede accederse al registro temporal de la temperatura y humedad y desde la solapa alarmas es posible habilitar y setear los límites de accionamiento (set point) de las alarmas de temperatura y humedad. 
+- Link app web: 
+- El codigo fuente es open source y se lo puede descargar desde:
+link github...
+link Docker:
+ 
 ![IoT banner](/medicion_alarmas.jpg)
 
 
