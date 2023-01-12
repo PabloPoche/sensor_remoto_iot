@@ -32,8 +32,8 @@ https://github.com/PabloPoche/sensor_remoto_iot/tree/main/sensor_iot
 
 # Broker mqtt remoto:
 
-El dispositivo IoT trabaja en conjunto con la aplicación web inove_dashboard_iot, la que ha sido modificada para adaptarla a los requerimientos del dispositivo. Una vez lanzada la misma desde un browser puede accederse a las diferentes pantallas, donde, desde la solapa mapa puede visualizarse la ubicación del dispositivo (icono azul) y al presionar con el mouse sobre el mismo puede visualizarse la temperatura y humedad medida en ese instante por el dispositivo.
-Desde la solapa sensores puede accederse al registro temporal de la temperatura y humedad mientra que desde la solapa alarmas es posible habilitar y setear los límites de accionamiento(set point) de las alarmas de temperatura y humedad. 
+El dispositivo IoT trabaja en conjunto con la aplicación web inove_dashboard_iot, la que ha sido modificada para adaptarla a los requerimientos del dispositivo. Una vez lanzada la misma desde un browser puede accederse a las diferentes pantallas, donde, desde la solapa Ubicacion puede en un mapa visualizarse donde se encuentra el dispositivo (icono azul) y al presionar con el mouse sobre el mismo puede visualizarse la temperatura y humedad medida en ese instante por el dispositivo.
+Desde la solapa Sensores puede accederse al registro temporal de la temperatura y humedad mientra que desde la solapa Alarmas es posible habilitar y setear los límites de accionamiento (set point) de las alarmas de temperatura y humedad. 
 - Link app web: http://pablop.pythonanywhere.com/#
 - El codigo fuente es open source y puede descargarse desde:
 https://github.com/PabloPoche/sensor_remoto_iot/tree/main/dashboard_iot
