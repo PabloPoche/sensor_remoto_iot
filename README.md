@@ -22,6 +22,7 @@ El proyecto consiste en la implementación de un dispositivo IoT capaz de monito
 - Sensor de temperatura y humedad (DHT11) con comunicación 1-wire.
 - Pantalla OLED 128X64 (SSD1306) con comunicación I2C.
 - Led rojo/verde y buzzer (actuadores) conectados a salidas digitales.
+
 ![IoT banner](/hardware.jpg)
 
 
@@ -32,6 +33,7 @@ El proyecto consiste en la implementación de un dispositivo IoT capaz de monito
 La programación del dispositivo es realizada en Micropython sobre una raspberry pi picoW la cual ni bien es energizada corre la aplicación (main.py), donde, en primera instancia se definen y configuran los diferentes elementos de hardware (módulo wifi, gps, sensores, pantalla, etc.) y luego, una vez establecida la conexión con la red, se lanza el proceso principal(cliente mqtt) donde se realizan la publicación y suscripción de los diferentes tópicos, junto a un proceso secundario(measure_thread) que realiza la medición, gestión de las alarmas y displayado de las respectivas variables de campo.
 - El codigo fuente es open source y puede descargarse desde:
 https://github.com/PabloPoche/sensor_remoto_iot/tree/main/sensor_iot
+
 ![IoT banner](/OLED.jpg)
 
 
