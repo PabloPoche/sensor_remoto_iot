@@ -36,7 +36,7 @@ El dispositivo IoT trabaja en conjunto con la aplicación web inove_dashboard_io
 Desde la solapa sensores puede accederse al registro temporal de la temperatura y humedad y desde la solapa alarmas es posible habilitar y setear los límites de accionamiento (set point) de las alarmas de temperatura y humedad. 
 - Link app web: 
 - El codigo fuente es open source y se lo puede descargar desde:
-link github...
+https://github.com/PabloPoche/sensor_remoto_iot/tree/main/dashboard_iot
 link Docker:
  
 ![IoT banner](/medicion_alarmas.jpg)
