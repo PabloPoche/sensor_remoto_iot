@@ -1,4 +1,4 @@
-![IoT banner](/video.mp4)
+![IoT banner](info/video.mp4)
 
 # Proyecto integrador:
 Lenguaje: Python.\
