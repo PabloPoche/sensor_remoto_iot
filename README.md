@@ -12,6 +12,8 @@ El proyecto consiste en la implementación de un dispositivo IoT capaz de monito
   ![IoT banner](info/gps.jpg)
 
 
+
+
 # Descripción del hardware:
 
 - El dispositivo IoT está constituido por los siguientes elementos de hardware:
