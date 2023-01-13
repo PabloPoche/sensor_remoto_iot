@@ -23,7 +23,7 @@ El proyecto consiste en la implementación de un dispositivo IoT capaz de monito
 - Pantalla OLED 128X64 (SSD1306) con comunicación I2C.
 - Led rojo/verde y buzzer (actuadores) conectados a salidas digitales.
 
-![IoT banner](/hardware.jpg)
+![IoT banner](info/hardware.jpg)
 
 
 
@@ -34,7 +34,7 @@ La programación del dispositivo es realizada en Micropython sobre una raspberry
 - El codigo fuente es open source y puede descargarse desde:
 https://github.com/PabloPoche/sensor_remoto_iot/tree/main/sensor_iot
 
-![IoT banner](/OLED.jpg)
+![IoT banner](info/OLED.jpg)
 
 
 # Broker mqtt remoto:
