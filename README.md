@@ -46,7 +46,7 @@ Desde la solapa Sensores puede accederse al registro temporal de la temperatura 
 https://github.com/PabloPoche/sensor_remoto_iot/tree/main/dashboard_iot
 - Link Docker: 
  
-![IoT banner](/medicion_alarmas.jpg)
+![IoT banner](info/medicion_alarmas.jpg)
 
 
 # Nota.
