@@ -34,7 +34,7 @@ La programación del dispositivo es realizada en Micropython sobre una raspberry
 - El codigo fuente es open source y puede descargarse desde:
 https://github.com/PabloPoche/sensor_remoto_iot/tree/main/sensor_iot
 
-![IoT banner](info/OLED.jpg)
+![IoT banner](info/oled.jpg)
 
 
 # Broker mqtt remoto:
