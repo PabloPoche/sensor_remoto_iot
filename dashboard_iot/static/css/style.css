@@ -1,0 +1,210 @@
+:root{
+  --bar-height: 60px;
+  --bar-width-min: 60px;
+  --bar-width-max: 250px;
+  --bg-black: #333333;
+  --bg-gray-light: #fffff8;
+  --bg-gray: #c7c7c7;
+  --bg-purple: #ffeefd;
+  --cl-blue-dark: #004A85;
+  --cl-blue-light: #00ADE8;
+  --text-gray: #fff; 
+  --text-purple-light: #e6ddd6;   
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* organizar todo en columnas */
+  background: radial-gradient(
+    var(--bg-purple),
+    var(--bg-purple),
+    var(--bg-purple),
+     #9198e5);
+}
+
+/* ------- Header style ------- */
+header {
+  padding-left: 5px;
+  padding-right: 5px;
+  background: var(--bg-black);
+  height: var(--bar-height);
+  color: var(--text-gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#headerImg {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------- Page container style ----- */
+#container {
+  flex: 1;
+  overflow: auto;
+  position: relative;
+}
+
+/* --------- Aside navbar ---------- */
+aside {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: var(--bar-width-min);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 999;
+  background: var(--bg-black);
+  color: var(--text-gray);
+  transition: all 0.3s;
+  border-right: 1px solid #999;
+}
+
+aside:hover{
+  width: var(--bar-width-max);
+  overflow: visible;
+}
+
+aside li {
+  width: var(--bar-width-max);
+}
+
+aside li > a {
+  border-collapse: collapse;
+  border-spacing: 0;
+  color:#999;
+  font-size: 14px;
+  transition: all .1s linear;
+  display: flex;
+}
+
+.nav-icon {
+  color:#999;
+  width: var(--bar-width-min);
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.nav-text {
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+aside .logout {
+  position:absolute;
+  left:0;
+  bottom:0;
+  }
+
+/* ------- Main style (contenido principal) ------- */
+main {
+  padding-left: var(--bar-width-min);
+  overflow: auto;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+section {
+  width: 100%;
+  height: 100%; /* cada seccion ocupa 100% del main */
+  overflow: auto; /* recomendado para que las secciones no se superpongan */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+/* ------- Article style ------- */
+article {
+  max-width: 400px;
+  min-width: 300px;
+  width: 50%;
+  height: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--bg-gray-light);
+  border: 3px solid var(--cl-blue-dark);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;  
+}
+
+/* ------- Footer style ------- */
+footer {
+  background: var(--bg-black);
+  height: 60px;
+  font-size: 24px;
+  padding: 16px;
+  display: none
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .nav-icon {
+  color:#999;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  aside {
+    display: none;
+  }
+  footer {
+    display: block;
+  }
+  main {
+    padding-left: 0;
+  }
+}
