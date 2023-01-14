@@ -44,7 +44,7 @@ Desde la solapa Sensores puede accederse al registro temporal de la temperatura 
 - Link app web: http://pablop.pythonanywhere.com/#
 - El codigo fuente es open source y puede descargarse desde:
 https://github.com/PabloPoche/sensor_remoto_iot/tree/main/dashboard_iot
-- Link Docker: docker pull pablodk/dashboard_iot_app
+- Link Docker: docker pull pablodk/dashboard_iot:latest
  
 ![IoT banner](info/medicion_alarmas.jpg)
 
