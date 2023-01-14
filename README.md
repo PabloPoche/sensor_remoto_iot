@@ -1,4 +1,6 @@
 ![IoT banner](info/video.mp4)
+info/video.mp4
+![Alt text](info/video.mp4)
 
 # Proyecto integrador:
 Lenguaje: Python.\
