@@ -1,0 +1,107 @@
+/* https://codepen.io/agoodwin/pen/JBvBPr */
+
+/* -------- Switch -------- */
+
+.toggle_switch_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+}
+
+.toggle_switch label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #FD1015;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.1), 0px 9px 15px 0px #ef4247;
+    -webkit-tap-highlight-color: transparent;
+}
+      
+.toggle_switch label:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition:width 0.2s cubic-bezier(0, -1.85, .27, 1.75);
+  height: 32px;
+  width: 32px;
+  background-color: #fd0f14;
+  border-radius: 46px;
+  box-shadow: inset 0px 0px 0px 8px #fff;
+}
+  
+.toggle_switch input {
+  display: none;
+}
+
+.toggle_switch input:disabled + label {
+  background-color: #d6d6d6;
+  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.1), 0px 9px 15px 0px #d6d6d6;
+}
+
+.toggle_switch input:disabled + label:before {
+  background-color: #adadad;
+}
+
+.toggle_switch input:checked + label {
+  background-color: #57de72;
+  box-shadow:  inset 0 0 2px 1px rgba(0, 0, 0, 0.1), 0px 9px 15px 0px rgba(3, 132, 28, 0.5411764705882353);
+}
+
+.toggle_switch input:checked + label:before{
+  width: 10px;
+  background-color: #fff;
+}
+
+/* -------- slider -------- */
+
+.toggle_slider_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+}
+
+.toggle_slider input {
+  display: none;
+}
+
+.toggle_slider label {
+	cursor: pointer;
+	width: 150px;
+	height: 75px;
+	background: grey;
+	display: block;
+	border-radius: 75px;
+	position: relative;
+}
+
+.toggle_slider label:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+  left: 5px;
+  transform: translateY(10%);
+	width: 50%;
+	height: 80%;
+	background: #fff;
+	border-radius: 50px;
+	transition: 0.3s;
+}
+
+.toggle_slider input:checked + label {
+  background: #57de72;
+  box-shadow:  inset 0 0 2px 1px rgba(0, 0, 0, 0.1), 0px 9px 15px 0px rgba(3, 132, 28, 0.5411764705882353);
+}
+
+.toggle_slider input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%) translateY(10%);
+}
