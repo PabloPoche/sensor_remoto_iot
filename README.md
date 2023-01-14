@@ -1,7 +1,7 @@
 ![IoT banner](info/video.mp4)
 info/video.mp4
 ![Alt text](info/video.mp4)
-
+<video src='info/video.mp4' width=180/>
 # Proyecto integrador:
 Lenguaje: Python.\
 Especialidad: IoT.
