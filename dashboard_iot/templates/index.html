@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/d604a8edc1.js" crossorigin="anonymous"></script>
+  
+  <!-- Mapa --> 
+  <!-- Release URL 6.14.1 https://github.com/openlayers/openlayers/releases/ -->
+  <script src="{{ url_for('static', filename='js/openlayers_614/ol.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/openlayers_614/ol.css') }}">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/mapPage.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/sensoresPage.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/models/toggleswitch.css') }}">
+  <script src="https://unpkg.com/ol-popup@4.0.0"></script>
+  <link rel="stylesheet" href="https://unpkg.com/ol-popup@4.0.0/src/ol-popup.css" />
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/inove_icon.png') }}" sizes="32x32" />
+  <title>Dashboard IoT</title>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header>
+  <div>
+    <div id="headerImg"><img src="{{ url_for('static', filename='images/inove_icon.png') }}" alt="inove" width="40px"></div>
+    Dashboard IoT
+  </div>
+  <div id="user">
+    <a href="{{url_for('logout')}}"><h3>salir</h3></a>
+    <img src="{{ url_for('static', filename='images/avatar_icon.png') }}" alt="avatar" width="40px">
+  </div>
+</header>
+
+<!-- Page container -->
+<div id="container">
+  <aside>
+    <nav>
+      <ul> 
+          <li>
+            <a page="mapPage" href="#">
+              <i id="asideMap" class="nav-icon fa fa-map-marker fa-2x"></i>
+                  <span class="nav-text">
+                      Ubicacion
+                  </span>
+            </a>
+          </li>
+
+          <li>
+            <a page="sensoresPage" href="#">
+              <i class="nav-icon fa fa-dashboard fa-2x"></i>
+                  <span class="nav-text">
+                      Sensores
+                  </span>
+            </a>
+          </li>
+
+          <li>
+            <a page="alarmasPage" href="#">
+              <i class="nav-icon fa fa-bell fa-2x"></i>
+                  <span class="nav-text">
+                      Alarmas
+                  </span>
+            </a>
+          </li>
+      
+      </ul>
+      <ul class="logout">
+          <li>
+            <a page="logoutPage" href="{{url_for('logout')}}">
+              <i class="nav-icon fa fa-power-off fa-2x"></i>
+              <span class="nav-text">
+                  Cerrar sesión
+              </span>
+            </a>
+          </li>  
+      </ul>
+
+    </nav>
+  </aside>
+
+  <main>
+
+    <section id="mapPage">
+        <div id="map" class="map"></div>
+    </section>
+
+    <section id="sensoresPage" style="display: none">
+      <canvas id="TempChart" class="chart"></canvas>
+      <canvas id="HumeChart" class="chart"></canvas>
+    </section>
+
+    <section id="alarmasPage" style="display: none">
+      <div class=row>
+
+        <article>
+          <h1><FONT COLOR="red">Temperatura</FONT></h1><br>
+          <div class=row>
+            <div class="toggle_slider_container" id="salarm_t">Off --- On</div>            
+          </div><br>
+            <p><FONT COLOR="blue">Set point (°C)</FONT></p>
+            <input type="text" value="" id="set_p_temp">
+        </article>
+
+        <article>
+          <h1><FONT COLOR="green">Humedad</FONT></h1><br>
+          <div class=row>
+            <div class="toggle_slider_container" id="salarm_h">Off --- On</div>            
+          </div><br>
+            <p><FONT COLOR="blue">Set point (%)</FONT></p>
+            <input type="text" value="" id="set_p_hume">
+        </article>
+         
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- Bottombar -->
+<footer>
+  <nav>
+    <ul>
+      <li><a page="mapPage" href="#"><i class="nav-icon fa fa-map-marker fa-2x"></i></a></li>
+      <li><a page="sensoresPage" href="#"><i class="nav-icon fa fa-dashboard fa-2x"></i></a></li>
+      <li><a page="alarmasPage" href="#"><i class="nav-icon fa fa-bell fa-2x"></i></a></li>
+    <ul>
+  </nav>
+</footer>
+
+<script>
+   window.onload=function(){
+     $(function(){
+         if(window.location.protocol==="https:")
+             window.location.protocol="http";
+     });
+  }
+  const mqttuser = "pablo_pochettino";
+  
+</script>
+
+<script src="{{ url_for('static', filename='js/jquery/jquery-3.4.1.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery/velocity.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery/velocity.ui.min.js') }}"></script>
+
+<!-- MQTT -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+
+<!-- Chart -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js"></script>
+<script src="{{ url_for('static', filename='js/mapload.js') }}"></script>
+<script src="{{ url_for('static', filename='js/models/toggleswitch.js') }}"></script>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+
+</body>
+
+</html>
