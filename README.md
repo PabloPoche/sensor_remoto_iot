@@ -2,11 +2,10 @@
 Lenguaje: Python.\
 Especialidad: IoT.
 
-<div>
-<p style = 'text-align:center;'>
-<[![](https://markdown-videos.deta.dev/youtube/JQS-9QosLnw)](https://youtu.be/JQS-9QosLnw)>
-</p>
-</div>
+
+<center>
+[![](https://markdown-videos.deta.dev/youtube/JQS-9QosLnw)](https://youtu.be/JQS-9QosLnw)
+</center>
 
 
 # Sensor remoto IoT.
