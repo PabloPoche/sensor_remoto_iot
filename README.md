@@ -2,9 +2,9 @@
 Lenguaje: Python.\
 Especialidad: IoT.
 
-https://youtu.be/JQS-9QosLnw
 
-![](info/video.mp4)
+[![IMAGE ALT TEXT HERE](https://youtu.be/JQS-9QosLnw/0.jpg)](https://youtu.be/JQS-9QosLnw)
+
 
 # Sensor remoto IoT.
 
