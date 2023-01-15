@@ -3,17 +3,7 @@ Lenguaje: Python.\
 Especialidad: IoT.
 
 
-
-<center>
- <iframe width="560" 
-         height="315" 
-         src="YOUTUBE_LINK" 
-         title="(https://youtu.be/JQS-9QosLnw" 
-         frameborder="0" 
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-         allowfullscreen>
- </iframe>
-</center>
+[![](https://markdown-videos.deta/youtube/{[video_id](https://youtu.be/JQS-9QosLnw))})](https://youtu.be/{[video_id](https://youtu.be/JQS-9QosLnw))})
 
 
 <div align="center">
