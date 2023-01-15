@@ -2,19 +2,7 @@
 Lenguaje: Python.\
 Especialidad: IoT.
 
-
-[![](https://markdown-videos.deta/youtube/{[video_id](JQS-9QosLnw))})](https://youtu.be/{[video_id](JQS-9QosLnw))})
-
-
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=https://youtu.be/JQS-9QosLnw"><img src="https://img.youtube.com/vi/https://youtu.be/JQS-9QosLnw/0.jpg" alt="IMAGE ALT TEXT"></a>
-</div>
-
-[![Everything Is AWESOME](JQS-9QosLnw)](JQS-9QosLnw "Everything Is AWESOME")
-[![IMAGE ALT TEXT HERE](JQS-9QosLnw/0.jpg)](JQS-9QosLnw)
-
-[<img src="JQS-9QosLnw/maxresdefault.jpg" width="50%">](JQS-9QosLnw "Now in Android: 55")
-
+[![Alt text](https://img.youtube.com/vi/JQS-9QosLnw/0.jpg)](https://www.youtube.com/watch?v=JQS-9QosLnw)
 
 # Sensor remoto IoT.
 
