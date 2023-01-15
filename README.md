@@ -3,9 +3,9 @@ Lenguaje: Python.\
 Especialidad: IoT.
 
 
-<center>
+
 [![](https://markdown-videos.deta.dev/youtube/JQS-9QosLnw)](https://youtu.be/JQS-9QosLnw)
-</center>
+
 
 
 # Sensor remoto IoT.
