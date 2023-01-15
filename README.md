@@ -4,11 +4,7 @@ Especialidad: IoT.
 
 
 <center>
-  <blockquote>
-	
 [![](https://markdown-videos.deta.dev/youtube/JQS-9QosLnw)](https://youtu.be/JQS-9QosLnw)
-
- </blockquote>
 </center>
 
 
