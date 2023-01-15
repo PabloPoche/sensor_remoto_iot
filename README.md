@@ -3,7 +3,7 @@ Lenguaje: Python.\
 Especialidad: IoT.
 
 
-[![](https://markdown-videos.deta/youtube/{[video_id](https://youtu.be/JQS-9QosLnw))})](https://youtu.be/{[video_id](https://youtu.be/JQS-9QosLnw))})
+[![](https://markdown-videos.deta/youtube/{[video_id](JQS-9QosLnw))})](https://youtu.be/{[video_id](JQS-9QosLnw))})
 
 
 <div align="center">
