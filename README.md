@@ -3,6 +3,7 @@ Lenguaje: Python.\
 Especialidad: IoT.
 
 
+[![Everything Is AWESOME](https://youtu.be/JQS-9QosLnw)](https://youtu.be/JQS-9QosLnw "Everything Is AWESOME")
 [![IMAGE ALT TEXT HERE](https://youtu.be/JQS-9QosLnw/0.jpg)](https://youtu.be/JQS-9QosLnw)
 
 
