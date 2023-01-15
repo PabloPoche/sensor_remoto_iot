@@ -9,7 +9,7 @@ Especialidad: IoT.
 [![Everything Is AWESOME](https://youtu.be/JQS-9QosLnw)](https://youtu.be/JQS-9QosLnw "Everything Is AWESOME")
 [![IMAGE ALT TEXT HERE](https://youtu.be/JQS-9QosLnw/0.jpg)](https://youtu.be/JQS-9QosLnw)
 
-<iframe width="500" height="300" src="https://www.youtube.com/embed/<https://youtu.be/JQS-9QosLnw>" frameborder="0" allowfullscreen></iframe>
+[<img src="https://youtu.be/JQS-9QosLnw/maxresdefault.jpg" width="50%">](https://youtu.be/JQS-9QosLnw "Now in Android: 55")
 
 
 # Sensor remoto IoT.
