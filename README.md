@@ -2,8 +2,9 @@
 Lenguaje: Python.\
 Especialidad: IoT.
 
-https://www.pythonanywhere.com/user/PabloP/files/home/PabloP/Sensor_Remoto_IoT/static/images/avatar_icon.png
+https://youtu.be/JQS-9QosLnw
 
+![](info/video.mp4)
 
 # Sensor remoto IoT.
 
