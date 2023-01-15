@@ -3,7 +3,7 @@ Lenguaje: Python.\
 Especialidad: IoT.
 
 
-https://user-images.githubusercontent.com/107163780/212475039-6d39e08b-5376-48cc-b152-a30abe60d8af.mp4
+
 
 
 
