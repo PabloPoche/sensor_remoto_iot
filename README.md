@@ -2,8 +2,7 @@
 Lenguaje: Python.\
 Especialidad: IoT.
 
-
-[![Alt text](https://img.youtube.com/vi/JQS-9QosLnw/0.jpg)](https://www.youtube.com/watch?v=JQS-9QosLnw)
+[![Watch the video](https://i.imgur.com/JQS-9QosLnw.png)](https://youtu.be/JQS-9QosLnw)
 
 
 
